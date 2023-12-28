@@ -10,12 +10,13 @@ export const Header = ({ title }) => {
 
 const styles = StyleSheet.create({
     header__container: {
-        
+
         justifyContent: 'flex-end',
         alignItems: 'center',
         backgroundColor: '#4b81bf',
-        height: 80,
-        width: '100%'
+        height: 90,
+        width: '100%',
+        paddingBottom: 10
     },
     header__text: {
         color: 'white'
