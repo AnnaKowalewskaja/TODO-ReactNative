@@ -37,7 +37,7 @@ export const TodoAdd = (props) => {
             />
 
             {showHint && <HintText />}
-            <Button title="Add Todo" onPress={handleAddTask} style={styles.addButton}/>
+            <Button title="Add Todo" onPress={handleAddTask} style={styles.addButton} />
 
 
             <FlatList data={tasks}
@@ -76,11 +76,11 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'column',
     },
-    addButton:{
-        marginBottom:20,
-        backgroundColor:'none',
-        border:'none',
-        
+    addButton: {
+        marginBottom: 20,
+        backgroundColor: 'transparent',
+        borderWidth: 0,
+
     }
 
 });
